@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="mytheme.css">
+    </head>
+    
+    <body>
+        <div class="section">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-xs-8">
+                        <a href="#"><img src="sardine_logo_2.png" class="center-block pull-left" id="logo"></a>
+                    </div>
+                    <div class="col-xs-4" draggable="true">
+                        <ul class="lead nav nav-pills pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-expanded="false"><i class="fa fa-2x fa-bars fa-fw text-danger"></i><span class="caret"><br></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="team.html">Team</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="contact.php">Contact us</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cover">
+            <div class="cover-image" style="background-image: 
+				linear-gradient(
+					rgba(0, 0, 0, 0.3),
+					rgba(0, 0, 0, 0.3)
+				), url('fundo.jpg')"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 style="color:white">
+                            <b>We are under development. We will be ready soon...</b>
+                        </h2>
+                        <br>
+                        <a href="contact.php" class="btn btn-danger btn-lg">Contact us<br></a>
+                        <br>
+                        <br>
+                        <a href="team.html" class="btn btn-lg btn-warning">Our team<br></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $("#logo").hover(function() {$( this ).fadeOut( 200 ); $( this ).fadeIn( 400 );},function(){});
+        </script>
+    </body>
+
+</html>

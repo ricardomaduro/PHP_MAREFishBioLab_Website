@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="mytheme.css">
+    </head>
+    
+    <body>
+        <div class="section">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-xs-2">
+                        <a href="#"><img src="Fish_skeleton.png" class="center-block img-responsive" id="logo"></a>
+                    </div>
+                    <div class="col-xs-8">
+                        <h3 style="font-weight:bold;font-size: 3.0vh;text-align:center">MARE - Fisheries biology lab</h3>
+                    </div>
+                    <div class="col-xs-2" draggable="true">
+                        <ul class="lead nav nav-pills pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-expanded="false"><i class="fa fa-2x fa-bars fa-fw text-danger"></i><span class="caret"><br></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Publications</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Gallery</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">Contacts</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">English</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Português</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover">
+            <div class="cover-image" style="background-image: 
+				linear-gradient(
+					rgba(0, 0, 0, 0.3),
+					rgba(0, 0, 0, 0.3)
+				), url('fundo.jpg')"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a class="active btn btn-danger btn-lg">We will be ready soon...<br></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        $("#logo").hover(function() {$( this ).fadeOut( 700 ); $( this ).fadeIn( 900 );},function(){});
+
+
+    </script>
+</html>
